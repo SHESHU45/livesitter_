@@ -1,0 +1,54 @@
+/* Add this CSS to your stylesheet or inside a style tag */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Update the background color and add some padding to the container */
+.min-h-screen {
+    padding: 2rem;
+}
+
+/* Style the input and button */
+input[type="text"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+}
+
+button {
+    cursor: pointer;
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+}
+
+button:hover {
+    background-color: #357ae8;
+}
+
+
+video {
+    border-radius: 0.25rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; 
+}
+
+.video-container video {
+    width: 90%; 
+    max-width: 1000px; 
+    height: auto;
+}
+
